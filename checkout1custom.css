@@ -1,0 +1,17 @@
+.badge{
+    background-color: #69036B !important;
+} 
+
+.text-primary{
+    color:  black !important;
+}
+
+.btn-primary{
+    background-color: #69036B !important;
+    border-color: #69036B  !important;
+}
+
+.form-check-input:checked {
+    background-color: #69036B  !important;
+    border-color: #69036B  !important;
+}
