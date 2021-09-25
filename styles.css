@@ -4102,7 +4102,7 @@ textarea.form-control-lg {
 }
 
 .navbar-light .navbar-brand {
-    color: rgba(0, 0, 0, 0.9);
+    color: whitesmoke;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
@@ -4143,7 +4143,7 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-    color: #fff;
+    color: rgb(44, 46, 160);
 }
 
 .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
@@ -4163,7 +4163,7 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #fff;
+    color: #646161;
 }
 
 .navbar-dark .navbar-toggler {
@@ -7486,7 +7486,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-    background-color: #212529 !important;
+    background-color: #FFFFFF !important;
 }
 
 .bg-body {
