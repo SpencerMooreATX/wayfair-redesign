@@ -9,13 +9,14 @@
     <title>Wayfair Checkout</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
+    
 
     
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -50,7 +51,7 @@
       <h2>Checkout Form</h2>
       <!--<p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p> -->
     </div>
-
+<!-- Your Cart -start-->
     <div class="row g-5">
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -58,14 +59,16 @@
           <span class="badge bg-primary rounded-pill">3</span>
         </h4>
         <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
+          <li class="list-group-item d-flex justify-content-between lh-sm">  
+            <img src="Images/SofaSectional.jpg" alt="sofa" class="thumbnail">
             <div>
-              <h6 class="my-0">Eufaula87” Genuine Leather Rolled Arm Chesterfield Sofa</h6>
-              <small class="text-muted">by Birch Lane</small>
-            </div>
+              <h6 class="my-0">Ledyard Faux Leather Reversible Sofa & Chaise with Ottoman</h6>
+              <small class="text-muted">by Zipcode Design™</small>
+            </div>          
             <span class="text-muted">$700</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
+          <li class="list-group-item d-flex justify-content-between lh-sm"> 
+            <img src="Images/Coffee Table.PNG" alt="Coffee table" class="thumbnail">
             <div>
               <h6 class="my-0">Southside Frame Single Coffee Table with Storage
             </h6>
@@ -74,6 +77,7 @@
             <span class="text-muted">$200</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
+            <img src="Images/Rug.PNG" alt="rug" class="thumbnail">
             <div>
               <h6 class="my-0">Taravello Oriental Light Grey / Blue Area Rug
             </h6>
@@ -119,6 +123,10 @@
           </div>
         </form>
       </div>
+<!-- Your Cart -end-->
+
+<!-- Billing Address -start-->
+
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
         <form class="needs-validation" novalidate>
@@ -215,6 +223,10 @@
           </div>
 
           <hr class="my-4">
+<!-- Billing Address -end-->
+
+<!-- Payment-start-->
+
 
           <h4 class="mb-3">Payment</h4>
 
@@ -262,7 +274,7 @@
 
             <div class="col-md-3">
               <label for="cc-cvv" class="form-label">CVV</label> 
-              <input type="text" class="form-control" id="cc-cvv" placeholder="000" required>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
               <div class="invalid-feedback">
                 Security code required
               </div>
@@ -270,13 +282,38 @@
           </div>
 
           <hr class="my-4">
+<!-- Payment-end-->
 
+<!-- Button -->
           <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
         </form>
       </div>
     </div>
   </main>
 
+
+  <button onclick="document.getElementById('id01').style.display='block'" class="w-100 btn btn-primary btn-lg" type="submit" style="width: 65.5% !important; ">Open Animated Modal</button>
+
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Modal Header</h2>
+      </header>
+      <div class="w3-container">
+        <p>Some text..</p>
+        <p>Some text..</p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>Modal Footer</p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2017–2021 Wayfair</p>
     <ul class="list-inline">
