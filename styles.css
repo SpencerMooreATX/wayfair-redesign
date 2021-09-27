@@ -10189,7 +10189,6 @@ body {
       transition-delay: 0 !important;
     }
   }
-  
   /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -10212,7 +10211,7 @@ body {
   
   #hero .carousel-item::before {
     content: '';
-    background-color: rgba(13, 30, 45, 0.6);
+    background-color: rgba(217, 230, 241, 0.6);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -10346,3 +10345,5 @@ body {
       width: 5%;
     }
   }
+  
+ 
