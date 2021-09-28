@@ -1,4 +1,4 @@
-<!doctype html>
+                                                       <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -133,7 +133,7 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label" >First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Emma" value="" required>
+              <input type="text" class="form-control" id="firstName" placeholder="Emma" value="" >
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -141,7 +141,7 @@
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Compton" value="" required>
+              <input type="text" class="form-control" id="lastName" placeholder="Compton" value="" >
               <div class="invalid-feedback">
                 Valid last name is required.
               </div>
@@ -151,7 +151,7 @@
               <label for="username" class="form-label">Username</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="emma.compton" required>
+                <input type="text" class="form-control" id="username" placeholder="emma.compton" >
               <div class="invalid-feedback">
                   Your username is required.
                 </div>
@@ -168,7 +168,7 @@
 
             <div class="col-12">
               <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" >
               <div class="invalid-feedback">
                 Please enter your shipping address.
               </div>
@@ -181,7 +181,7 @@
 
             <div class="col-md-5">
               <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
+              <select class="form-select" id="country" >
                 <option value="">Choose...</option>
                 <option>United States</option>
               </select>
@@ -192,7 +192,7 @@
 
             <div class="col-md-4">
               <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required>
+              <select class="form-select" id="state" >
                 <option value="">Choose...</option>
                 <option>Texas</option>
               </select>
@@ -203,7 +203,7 @@
 
             <div class="col-md-3">
               <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="78733" required>
+              <input type="text" class="form-control" id="zip" placeholder="78733" >
               <div class="invalid-feedback">
                 Zip code required.
               </div>
@@ -232,15 +232,15 @@
 
           <div class="my-3">
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked >
               <label class="form-check-label" for="credit">Credit card</label>
             </div>
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" >
               <label class="form-check-label" for="debit">Wayfair Credit card</label>
             </div>
             <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" >
               <label class="form-check-label" for="paypal">PayPal</label>
             </div>
           </div>
@@ -249,7 +249,7 @@
           <div class="row gy-3">
             <div class="col-md-6">
               <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="Emma Compton" required>
+              <input type="text" class="form-control" id="cc-name" placeholder="Emma Compton" >
               <small class="text-muted">Full name as displayed on card</small>
               <div class="invalid-feedback">
                 Name on card is required
@@ -258,7 +258,7 @@
 
             <div class="col-md-6">
               <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="1234 5555 6666 7685" required>
+              <input type="text" class="form-control" id="cc-number" placeholder="1234 5555 6666 7685" >
               <div class="invalid-feedback">
                 Credit card number is required
               </div>
@@ -266,7 +266,7 @@
 
             <div class="col-md-3">
               <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="12/27" required>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="12/27" >
               <div class="invalid-feedback">
                 Expiration date required
               </div>
@@ -274,9 +274,10 @@
 
             <div class="col-md-3">
               <label for="cc-cvv" class="form-label">CVV</label> 
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="123">
               <div class="invalid-feedback">
-                Security code required
+                Security code required 
+                <p style="color: grey; font-size: 10px;!important">(Demo hint: Enter 123 )</p>
               </div>
             </div>
           </div>
@@ -285,33 +286,56 @@
 <!-- Payment-end-->
 
 <!-- Button -->
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+          <button onclick="document.getElementById('id01').style.display='block'" class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
         </form>
       </div>
     </div>
   </main>
 
-
-  <button onclick="document.getElementById('id01').style.display='block'" class="w-100 btn btn-primary btn-lg" type="submit" style="width: 65.5% !important; ">Open Animated Modal</button>
-
+<!-- Error Modal -->
   <div id="id01" class="w3-modal">
     <div class="w3-modal-content w3-animate-top w3-card-4">
-      <header class="w3-container w3-teal"> 
+      <header class="w3-container" style="background-color: #E5E5E5;"> 
         <span onclick="document.getElementById('id01').style.display='none'" 
         class="w3-button w3-display-topright">&times;</span>
-        <h2>Modal Header</h2>
+        <h2>Sorry, something went wrong !</h2>
+        <p>We were not able to process the payment ...</p>
       </header>
       <div class="w3-container">
-        <p>Some text..</p>
-        <p>Some text..</p>
+        <p  style="color: red;">Go back to <strong>PAYMENT INFO.</strong></p>
+        <p>Go back to <strong>CART</strong></p>
+        <p>Go back to <strong>PRODUCT SEARCH</strong></p>
       </div>
-      <footer class="w3-container w3-teal">
-        <p>Modal Footer</p>
+      <footer class="w3-container">
+        <p></p>
       </footer>
     </div>
   </div>
 </div>
 
+
+
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
 
 <!-- Footer -->
   <footer class="my-5 pt-5 text-muted text-center text-small">
