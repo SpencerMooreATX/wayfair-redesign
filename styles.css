@@ -10185,7 +10185,7 @@ body {
 #hero {
     width: 100%;
     height: calc(100vh - 110px);
-    padding: 0;
+    padding: 0px;
     overflow: hidden;
     background: #000;
   }
@@ -10201,9 +10201,9 @@ body {
   
   #hero .carousel-item::before {
     content: '';
-    background-color: rgba(217, 230, 241, 0.6);
+  
     position: absolute;
-    height: 100%;
+    height: auto;
     width: 100%;
     top: 0;
     right: 0;
@@ -10230,7 +10230,7 @@ body {
   
   @media (max-width: 992px) {
     #hero, #hero .carousel-item {
-      height: calc(100vh - 70px);
+      height: calc(100vh - 50px);
     }
     #hero .carousel-content.container {
       padding: 0 50px;
