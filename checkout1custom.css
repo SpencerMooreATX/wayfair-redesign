@@ -30,4 +30,14 @@
 
   .change{
       color: #69036B;
+      text-decoration: underline;
+  }
+
+  #submitBtn{
+      margin-top: 10px;
+      border-radius: 50px;
+  }
+
+  .cart{
+    margin-top: 50px !important;
   }
