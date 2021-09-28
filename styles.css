@@ -102,6 +102,7 @@ hr:not([size]) {
     margin-bottom: 0.5rem;
     font-weight: 500;
     line-height: 1.2;
+    
 }
 
 .h1, h1 {
@@ -1330,7 +1331,7 @@ progress {
         margin-left: 0;
     }
     .offset-lg-1 {
-        margin-left: 8.33333333%;
+        margin-left: 0;
     }
     .offset-lg-2 {
         margin-left: 16.66666667%;
@@ -6310,10 +6311,6 @@ textarea.form-control-lg {
     overflow: auto !important;
 }
 
-.overflow-hidden {
-    overflow: hidden !important;
-}
-
 .overflow-visible {
     overflow: visible !important;
 }
@@ -6368,10 +6365,6 @@ textarea.form-control-lg {
 
 .shadow-sm {
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-}
-
-.shadow-lg {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
 }
 
 .shadow-none {
@@ -10298,9 +10291,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     margin-left: calc(var(--bs-gutter-x) * -0.5);
 }
 
-.shadow-lg {
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
-}
 
 *, ::after, ::before {
     box-sizing: border-box;
@@ -10563,7 +10553,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .single-product .product-info .title a:hover {
-    color: #0167F3;
+    color: #792C80;
 }
 
 .single-product .product-info .review {
@@ -10615,4 +10605,53 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .trending-product .section-title {
     margin-bottom: 20px;
+}
+.section-title h2 {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 800;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 0px 300px;
+    position: relative;
+    z-index: 5;
+    position: relative;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-title {
+      padding: 0px 250px;
+    }
+  }
+  .section-title h2::before {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    background-color: #792C80;
+    height: 2px;
+    width: 50px;
+    margin-left: -25px;
+    border-radius: 2px;
+  }
+/* Department Names */
+  .single-department .department-name {
+    padding: 20px;
+    background-color: #fff;
+}
+.single-department .department-name .title a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #081828;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+    .single-department .department-name .title a {
+        font-size: 15px;
+    }
 }
