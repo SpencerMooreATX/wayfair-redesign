@@ -9,12 +9,17 @@
     <title>Wayfair Checkout Confirmation</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
-    
-<!--SSJ's Custom css-->
-<link rel="stylesheet" type="text/css" href="checkout1custom.css">
-    
 
-    <!-- Bootstrap core CSS -->
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.3.0.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="FooterAssets/css/lindy-uikit.css" />
+
+        <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -33,52 +38,51 @@
         }
       }
     </style>
+    
+    <!-- Josh's CSS -->
+    <link rel="stylesheet" href="styles.css">
 
-<!-- Josh's CSS -->
-<link rel="stylesheet" href="styles.css">
-
-
-<!--SSJ's Custom css-->
-<link rel="stylesheet" type="text/css" href="checkout1custom.css">
-
+    <!--SSJ's Custom css-->
+    <link rel="stylesheet" type="text/css" href="checkout1custom.css">
     
     <!-- Custom styles for this template -->
     <link href="form-validation.css" rel="stylesheet">
-  </head>
+    
+</head>
 
 
 <body class="bg-light">
 
 <!--====== HEADER PART START ======-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">
-      <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wayfair_logo.svg/200px-Wayfair_logo.svg.png" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example" >
+  <div class="container-fluid">  
+    <div class="collapse navbar-collapse" id="navbarsExample02">
 
-    <div class="collapse navbar-collapse" id="navbarsExample07">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <form>
-          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-        </form>
+      <ul class="navbar-nav me-auto" >
+        <li>
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="Images/logo.png" alt="logo" width="auto" height="40">
+          </a>
+        </li>        
+        <li class="nav-item"></li>
+          <form>
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+          </form>
+        </li >
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Styles</a>
-        </li>
+        <li class="nav-item">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Categories</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Sign In</a>
-        </li>
-        <li class="nav-item">
-          <img class="nav-link active" aria-current="page" src="Images/union-1.svg"></a>
-        </li>
-          </ul>
+        </li>       
+        <li class="nav-item" >
+          <a class="nav-link active" aria-current="page" href="#" style="font-size: 12px;text-decoration: underline;"> Back to Cart<img  aria-current="page" src="Images/Vector.svg" width="auto" height="25"></a>          
         </li>
       </ul>
+      
     </div>
   </div>
 </nav>
@@ -181,16 +185,74 @@
 <!-- Your Cart -end-->
 
     
-<!-- Footer -->
-  <footer class="my-5 pt-5 text-muted text-center text-small ">
-    <p class="mb-1">&copy; 2017–2021 Wayfair</p>
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="#">Privacy</a></li>
-      <li class="list-inline-item"><a href="#">Terms</a></li>
-      <li class="list-inline-item"><a href="#">Support</a></li>
-    </ul>
-  </footer>
-</div>
+    		<!-- ========================= footer style-1 start ========================= -->
+        <footer class="footer footer-style-1 mb-80">
+          <div class="container" >
+            <div class="widget-wrapper">
+              <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                  <div class="footer-widget">
+                    <div class="logo">
+                      <a href="#0"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wayfair_logo.svg/128px-Wayfair_logo.svg.png" alt="logo" alt=""> </a>
+                    </div>
+                    <p class="desc" style="color: #792C80; font-weight: 500;">We’re here to help everyone, anywhere create their feeling of home.</p>
+                    <ul class="socials">
+                      <li> <a href="#0"> <i class="lni lni-facebook-filled"></i> </a> </li>
+                      <li> <a href="#0"> <i class="lni lni-twitter-filled"></i> </a> </li>
+                      <li> <a href="#0"> <i class="lni lni-instagram-filled"></i> </a> </li>
+                      <li> <a href="#0"> <i class="lni lni-linkedin-original"></i> </a> </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-9 col-sm-9">
+                  <div class="footer-widget">
+                    <h6>About us</h6>
+                    <ul class="links">
+                      <li> <a href="#0">About Wayfair</a> </li>
+                      <li> <a href="#0">Wayfair Professional</a> </li>
+                      <li> <a href="#0">Gift Cards</a> </li>
+                      <li> <a href="#0">Wayfair Credit Card</a> </li>
+                      <li> <a href="#0">Wayfair Financing</a> </li>
+                      <li> <a href="#0">Careers</a> </li>
+                      <li> <a href="#0">Locations</a> </li>
+                      <li> <a href="#0">Advertise With Us</a> </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-9 col-sm-9">
+                  <div class="footer-widget">
+                    <h6>Customer Services</h6>
+                    <ul class="links">
+                      <li> <a href="#0">My Orders</a> </li>
+                      <li> <a href="#0">My Account</a> </li>
+                      <li> <a href="#0">Track my Order</a> </li>
+                      <li> <a href="#0">Wayfair Accessibility Statement</a> </li>
+                      <li> <a href="#0">Return Policy</a> </li>
+                      <li> <a href="#0">Help Center</a> </li>
+                      <li> <a href="#0">Product Recalls</a> </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6">
+                  <div class="footer-widget">
+                    <h6>Contact Us</h6>
+                    <ul class="links">
+                      <li> <a href="#0" style="color: #792C80;"><strong>Quick Service</strong></a> </li>
+                      <li> <a href="#0" style="color: #792C80;"><strong>Live Chat</strong></a> </li>
+                      <li> <a href="#0">Customer Service<br>Open.Closes 8:00PM EST<br>Shopping Assistance<br>Open.Closes8:00PM EST</a> </li>
+                      <li> <a href="#0"><strong>Weekly Hours</strong></a> </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright-wrapper">
+              <p>   I  Interest-Based Ads  I  Shop Wayfair International  I <br>
+                © 2002 - 2021 by Wayfair LLC, 4 Copley Place, 7th Floor, Boston, MA 02116 </p>
+            </div>
+          </div>
+        </footer>
+        <!-- ========================= footer style-1 end ========================= -->
 
 
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
@@ -210,3 +272,4 @@
   
 </body>
 </html>
+
