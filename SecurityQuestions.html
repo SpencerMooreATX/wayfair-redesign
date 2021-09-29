@@ -3,80 +3,55 @@
 
 <head>
   <!-- My CSS -->
-  <link rel="SecurityQuestions" href="SecurityQuestions.css">
+  <link rel="stylesheet" href="sign-up1.css">
   <title>Wayfair Redesign</title>
 </head>
 
 <body>
-
-<!--====== HEADER PART START ======-->
-<nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Wayfair_logo.svg/128px-Wayfair_logo.svg.png" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02"
-        aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExample02">
-        <ul class="navbar-nav me-auto">
+	<div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+          <h2 class="inactive underlineHover"></h2>
+          <h2 class="active"></h2>
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="Images\logo.png" id="icon" alt="Wayfair" />
+          </div>
+      
+          <!-- Login Form -->
           <form>
-            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select a security question</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="answer">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select a security question</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="answer">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select a security question</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="answer">
+            <input type="submit" class="fadeIn fourth" value="Next">
           </form>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Styles</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Sign In</a>
-          </li>
-          <li class="nav-item">
-            <img class="nav-link active" aria-current="page" src="Images/Vector.svg"></a>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-  </nav>
-<!--====== HEADER PART END ======-->
-
-	<select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-      </div>
-
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-      </div>
-
-      <select class="form-select" aria-label="Default select example">
-        <option selected>Open this select menu</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-
-      <div class="input-group mb-3">
-        <span class="input-group-text" id="inputGroup-sizing-default">Default</span>
-        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">By creating an account, you agree to Wayfair’s Security & Privacy Policy and Legal Notices.</a>
+          </div>
+      
+        </div>
       </div>
 </body>
