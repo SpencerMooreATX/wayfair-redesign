@@ -1,4 +1,4 @@
-<!doctype html>
+                                                       <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -9,13 +9,14 @@
     <title>Wayfair Checkout</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/">
+    
 
     
 
     <!-- Bootstrap core CSS -->
 <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -50,22 +51,26 @@
       <h2>Checkout Form</h2>
       <!--<p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p> -->
     </div>
-
+<!-- Your Cart -start-->
     <div class="row g-5">
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
           <span class="text-primary">Your cart</span>
-          <span class="badge bg-primary rounded-pill">3</span>
+                  
+          <a class="nav-link active" aria-current="page" href="#" style="font-size: 18px;text-decoration: underline;color: black;"> Back to Cart <span class="badge bg-primary rounded-pill">3</span> </a>  
+
         </h4>
         <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
+          <li class="list-group-item d-flex justify-content-between lh-sm">  
+            <img src="Images/SofaSectional.jpg" alt="sofa" class="thumbnail">
             <div>
-              <h6 class="my-0">Eufaula87” Genuine Leather Rolled Arm Chesterfield Sofa</h6>
-              <small class="text-muted">by Birch Lane</small>
-            </div>
+              <h6 class="my-0">Ledyard Faux Leather Reversible Sofa & Chaise with Ottoman</h6>
+              <small class="text-muted">by Zipcode Design™</small>
+            </div>          
             <span class="text-muted">$700</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm">
+          <li class="list-group-item d-flex justify-content-between lh-sm"> 
+            <img src="Images/Coffee Table.PNG" alt="Coffee table" class="thumbnail">
             <div>
               <h6 class="my-0">Southside Frame Single Coffee Table with Storage
             </h6>
@@ -74,6 +79,7 @@
             <span class="text-muted">$200</span>
           </li>
           <li class="list-group-item d-flex justify-content-between lh-sm">
+            <img src="Images/Rug.PNG" alt="rug" class="thumbnail">
             <div>
               <h6 class="my-0">Taravello Oriental Light Grey / Blue Area Rug
             </h6>
@@ -119,13 +125,17 @@
           </div>
         </form>
       </div>
+<!-- Your Cart -end-->
+
+<!-- Billing Address -start-->
+
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3">Billing address</h4>
-        <form class="needs-validation" novalidate>
+        <form class="needs-validation" action="CheckoutReview.html" novalidate>
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label" >First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="Emma" value="" required>
+              <input type="text" class="form-control" id="firstName" placeholder="Emma" value="" >
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -133,7 +143,7 @@
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="Compton" value="" required>
+              <input type="text" class="form-control" id="lastName" placeholder="Compton" value="" >
               <div class="invalid-feedback">
                 Valid last name is required.
               </div>
@@ -143,7 +153,7 @@
               <label for="username" class="form-label">Username</label>
               <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="emma.compton" required>
+                <input type="text" class="form-control" id="username" placeholder="emma.compton" >
               <div class="invalid-feedback">
                   Your username is required.
                 </div>
@@ -160,7 +170,7 @@
 
             <div class="col-12">
               <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" >
               <div class="invalid-feedback">
                 Please enter your shipping address.
               </div>
@@ -173,7 +183,7 @@
 
             <div class="col-md-5">
               <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required>
+              <select class="form-select" id="country" >
                 <option value="">Choose...</option>
                 <option>United States</option>
               </select>
@@ -184,7 +194,7 @@
 
             <div class="col-md-4">
               <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required>
+              <select class="form-select" id="state" >
                 <option value="">Choose...</option>
                 <option>Texas</option>
               </select>
@@ -195,7 +205,7 @@
 
             <div class="col-md-3">
               <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="78733" required>
+              <input type="text" class="form-control" id="zip" placeholder="78733" >
               <div class="invalid-feedback">
                 Zip code required.
               </div>
@@ -205,8 +215,8 @@
           <hr class="my-4">
 
           <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
+            <input type="checkbox" class="form-check-input" id="same-address" checked>
+            <label class="form-check-label" for="same-address" >Shipping address is the same as my billing address</label>
           </div>
 
           <div class="form-check">
@@ -215,20 +225,24 @@
           </div>
 
           <hr class="my-4">
+<!-- Billing Address -end-->
+
+<!-- Payment-start-->
+
 
           <h4 class="mb-3">Payment</h4>
 
           <div class="my-3">
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked >
               <label class="form-check-label" for="credit">Credit card</label>
             </div>
             <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" >
               <label class="form-check-label" for="debit">Wayfair Credit card</label>
             </div>
             <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" >
               <label class="form-check-label" for="paypal">PayPal</label>
             </div>
           </div>
@@ -237,7 +251,7 @@
           <div class="row gy-3">
             <div class="col-md-6">
               <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="Emma Compton" required>
+              <input type="text" class="form-control" id="cc-name" placeholder="Emma Compton" >
               <small class="text-muted">Full name as displayed on card</small>
               <div class="invalid-feedback">
                 Name on card is required
@@ -246,7 +260,7 @@
 
             <div class="col-md-6">
               <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="1234 5555 6666 7685" required>
+              <input type="text" class="form-control" id="cc-number" placeholder="1234 5555 6666 7685" >
               <div class="invalid-feedback">
                 Credit card number is required
               </div>
@@ -254,7 +268,7 @@
 
             <div class="col-md-3">
               <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="12/27" required>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="12/27" >
               <div class="invalid-feedback">
                 Expiration date required
               </div>
@@ -262,21 +276,71 @@
 
             <div class="col-md-3">
               <label for="cc-cvv" class="form-label">CVV</label> 
-              <input type="text" class="form-control" id="cc-cvv" placeholder="000" required>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="123">
               <div class="invalid-feedback">
-                Security code required
+                Security code required 
+                <p style="color: grey; font-size: 10px;">(Demo hint: Enter 123 )</p>
               </div>
             </div>
           </div>
 
           <hr class="my-4">
+<!-- Payment-end-->
 
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+<!-- Button -->
+          <button onclick="document.getElementById('id01').style.display='block'" class="w-100 btn btn-primary btn-lg" type="submit">
+            Continue to checkout
+            </button>
         </form>
       </div>
     </div>
   </main>
 
+<!-- Error Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container" style="background-color: #E5E5E5;"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Sorry, something went wrong !</h2>
+        <p>We were not able to process the payment ...</p>
+      </header>
+      <div class="w3-container">
+        <p  style="color: red;">Go back to <strong>PAYMENT INFO.</strong></p>
+        <p>Go back to <strong>CART</strong></p>
+        <p>Go back to <strong>PRODUCT SEARCH</strong></p>
+      </div>
+      <footer class="w3-container">
+        <p></p>
+      </footer>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  (function() {
+    'use strict';
+    window.addEventListener('load', function() {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation');
+      // Loop over them and prevent submission
+      var validation = Array.prototype.filter.call(forms, function(form) {
+        form.addEventListener('submit', function(event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    }, false);
+  })();
+  </script>
+
+  
+
+<!-- Footer -->
   <footer class="my-5 pt-5 text-muted text-center text-small">
     <p class="mb-1">&copy; 2017–2021 Wayfair</p>
     <ul class="list-inline">
