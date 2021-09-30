@@ -340,7 +340,7 @@ p {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: #2F80ED;
+  background: #330342;
   color: #ffffff;
   border: 1px solid transparent;
   position: relative;
@@ -379,8 +379,8 @@ p {
 
 .button.border-button {
   background: transparent;
-  color: #2F80ED;
-  border-color: #2F80ED;
+  color: #33053f;
+  border-color:#33053f ;
 }
 
 .button.border-button::before {
