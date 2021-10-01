@@ -2720,8 +2720,9 @@ p {
     FOOTER-1 CSS
 ================================ */
 .footer-style-1 {
-  background: #F3F3F3;
+  background: #fff;
   padding-top: 80px;
+  margin-top: 80px;
 }
 
 .footer-style-1 .widget-wrapper .footer-widget {
