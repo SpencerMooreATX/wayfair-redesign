@@ -15,3 +15,29 @@
     background-color: #69036B  !important;
     border-color: #69036B  !important;
 }
+
+.thumbnail{
+    
+    border-radius: 4px !important;  /* Rounded border */
+    padding: 5px !important; /* Some padding */
+    width: 60px !important; /* Set a small width */
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:black !important;
+    opacity: 1; /* Firefox */
+  }
+
+  .change{
+      color: #69036B;
+      text-decoration: underline;
+  }
+
+  #submitBtn{
+      margin-top: 10px;
+      border-radius: 50px;
+  }
+
+  .cart{
+    margin-top: 50px !important;
+  }
