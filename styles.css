@@ -926,6 +926,7 @@ progress {
 .col-12 {
     flex: 0 0 auto;
     width: 100%;
+    margin-top: 40px
 }
 
 .offset-1 {
@@ -6452,9 +6453,7 @@ textarea.form-control-lg {
     transform: translateY(-50%) !important;
 }
 
-.border {
-    border: 1px solid #dee2e6 !important;
-}
+
 
 .border-0 {
     border: 0 !important;
@@ -7243,6 +7242,7 @@ textarea.form-control-lg {
 
 .lh-1 {
     line-height: 1 !important;
+   
 }
 
 .lh-sm {
@@ -10038,7 +10038,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Raleway", sans-serif;
 }
-
+h1{
+    color: #792C80 !important;
+}
 /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -10128,7 +10130,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     right: 0;
     overflow: hidden;
 }
-
+.container{
+    background-color: #FFFFFF;
+}
 #hero .carousel-content {
     text-align: left;
 }
@@ -10237,7 +10241,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 /*--------------------------------------------------------------
 # HERO CSS
 --------------------------------------------------------------*/
-
+.background {
+    background-image: url(ThyThisBackground.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+  
+  }
 .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
@@ -10294,10 +10303,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 *, ::after, ::before {
     box-sizing: border-box;
-}
-
-.border {
-    border: 1px solid #dee2e6 !important;
 }
 
 .align-items-center {

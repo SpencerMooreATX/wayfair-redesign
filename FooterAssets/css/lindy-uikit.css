@@ -340,7 +340,7 @@ p {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background: #2F80ED;
+  background: #3f064b;
   color: #3f064b;
   border: 1px solid transparent;
   position: relative;
@@ -1887,9 +1887,8 @@ p {
 }
 
 .pricing-style-1 .single-pricing .image {
-  width: 120px;
-  height: 120px;
-  background: #EBF4FF;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   margin-bottom: 30px;
   display: flex;
