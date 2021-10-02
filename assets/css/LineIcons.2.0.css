@@ -642,10 +642,6 @@ Author: lineicons.com
   content: "\ea7b";
 }
 
-.lni-credit-cards::before {
-  content: "\ea7c";
-}
-
 .lni-crop::before {
   content: "\ea7d";
 }
@@ -682,9 +678,6 @@ Author: lineicons.com
   content: "\ea85";
 }
 
-.lni-delivery::before {
-  content: "\ea86";
-}
 
 .lni-dev::before {
   content: "\ea87";
@@ -1606,10 +1599,6 @@ Author: lineicons.com
   content: "\eb6c";
 }
 
-.lni-reload::before {
-  content: "\eb6d";
-}
-
 .lni-restaurant::before {
   content: "\eb6e";
 }
@@ -1874,9 +1863,6 @@ Author: lineicons.com
   content: "\ebaf";
 }
 
-.lni-support::before {
-  content: "\ebb0";
-}
 
 .lni-surf-board::before {
   content: "\ebb1";

@@ -42,6 +42,13 @@ h2 {
   padding: 20px;
 }
 
+.form-select {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 16px;
+  width:85%;
+}
+
 #formContent {
   -webkit-border-radius: 10px 10px 10px 10px;
   border-radius: 10px 10px 10px 10px;
