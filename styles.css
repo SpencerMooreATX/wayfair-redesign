@@ -1,3 +1,4 @@
+
 .bg-dark {
     background-color: #FFFFFF !important;
 }
@@ -229,10 +230,7 @@ sup {
 a {
     color: #0d6efd;
     text-decoration: underline;
-}
 
-a:hover {
-    color: #0a58ca;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -10039,7 +10037,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Raleway", sans-serif;
 }
 h1{
-    color: #792C80 !important;
+    color: #063170 !important;
 }
 /*--------------------------------------------------------------
   # Back to top button
@@ -10241,9 +10239,10 @@ h1{
 /*--------------------------------------------------------------
 # HERO CSS
 --------------------------------------------------------------*/
+
 .background {
-    background-image: url(ThyThisBackground.svg);
-    background-position: bottom;
+    background-image: url(Banner.svg);
+    background-position: left;
     background-repeat: no-repeat;
   
   }
@@ -10355,7 +10354,7 @@ h1{
 }
 
 .lh-1 {
-    line-height: 1 !important;
+    line-height: 1.2 !important;
 }
 
 .fw-bold {
@@ -10387,6 +10386,7 @@ h1{
 
 .mb-4 {
     margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem;
 }
 
 .gap-2 {
