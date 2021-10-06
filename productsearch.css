@@ -270,14 +270,6 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
-svg {
-  vertical-align: middle;
-  float: left;
-  width:  100px;
-  height: 200px;
-  object-fit: cover;
-}
 
 table {
   caption-side: bottom;
