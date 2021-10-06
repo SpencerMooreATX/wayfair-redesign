@@ -1,3 +1,4 @@
+
 .bg-dark {
     background-color: #FFFFFF !important;
 }
@@ -229,10 +230,7 @@ sup {
 a {
     color: #0d6efd;
     text-decoration: underline;
-}
 
-a:hover {
-    color: #0a58ca;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -926,6 +924,7 @@ progress {
 .col-12 {
     flex: 0 0 auto;
     width: 100%;
+    margin-top: 40px
 }
 
 .offset-1 {
@@ -6452,9 +6451,7 @@ textarea.form-control-lg {
     transform: translateY(-50%) !important;
 }
 
-.border {
-    border: 1px solid #dee2e6 !important;
-}
+
 
 .border-0 {
     border: 0 !important;
@@ -7243,6 +7240,7 @@ textarea.form-control-lg {
 
 .lh-1 {
     line-height: 1 !important;
+   
 }
 
 .lh-sm {
@@ -10038,7 +10036,9 @@ a:hover {
 h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Raleway", sans-serif;
 }
-
+h1{
+    color: #063170 !important;
+}
 /*--------------------------------------------------------------
   # Back to top button
   --------------------------------------------------------------*/
@@ -10128,7 +10128,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     right: 0;
     overflow: hidden;
 }
-
+.container{
+    background-color: #FFFFFF;
+}
 #hero .carousel-content {
     text-align: left;
 }
@@ -10238,6 +10240,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # HERO CSS
 --------------------------------------------------------------*/
 
+.background {
+    background-image: url(Banner.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+  
+  }
 .my-5 {
     margin-top: 3rem !important;
     margin-bottom: 3rem !important;
@@ -10296,10 +10304,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     box-sizing: border-box;
 }
 
-.border {
-    border: 1px solid #dee2e6 !important;
-}
-
 .align-items-center {
     align-items: center !important;
 }
@@ -10350,7 +10354,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .lh-1 {
-    line-height: 1 !important;
+    line-height: 1.2 !important;
 }
 
 .fw-bold {
@@ -10382,6 +10386,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .mb-4 {
     margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem;
 }
 
 .gap-2 {
