@@ -171,6 +171,10 @@ a.btn {
 
 .h4, h4 {
   font-size: calc(1.275rem + 0.3vw);
+  color: #792C80;
+  text-decoration: underline;
+  position: relative;
+  left: 660px;
 }
 
 @media (min-width: 1200px) {
