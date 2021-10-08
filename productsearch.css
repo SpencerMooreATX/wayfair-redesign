@@ -101,7 +101,9 @@ hr:not([size]) {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
+  text-align: left;
+  position: relative;
   
 }
 
@@ -117,7 +119,14 @@ hr:not([size]) {
 
 .h2, h2 {
   font-size: calc(1.325rem + 0.9vw);
+  color: #000;
+  text-align: left;
+  position: relative;
+  left: 110px;
 }
+
+/* breadcrumb */
+
 
 @media (min-width: 1200px) {
   .h2, h2 {
@@ -4405,6 +4414,8 @@ textarea.form-control-lg {
   padding: 0 0;
   margin-bottom: 1rem;
   list-style: none;
+  position: relative;
+  left: 110px;
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -4419,7 +4430,7 @@ textarea.form-control-lg {
 }
 
 .breadcrumb-item.active {
-  color: #6c757d;
+  color: #000;
 }
 
 .pagination {
