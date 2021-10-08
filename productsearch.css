@@ -2,8 +2,6 @@
   background-color: #FFFFFF !important;
 }
 
-
-
 .form-control {
   display: block;
   width: 100%;
@@ -3710,6 +3708,8 @@ textarea.form-control-lg {
 
 .nav-link {
   display: block;
+  position: relative;
+  top: 10px;
   padding: 0.5rem 1rem;
   color: #0d6efd;
   text-decoration: none;
