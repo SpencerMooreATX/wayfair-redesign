@@ -10663,6 +10663,9 @@ h1{
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+  position: absolute;
+  right: 110px;
+  top: 165px;
 }
 
 /* Department Names */
